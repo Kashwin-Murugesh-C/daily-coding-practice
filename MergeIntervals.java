@@ -5,6 +5,7 @@ public class MergeIntervals {
         String input = scanner.nextLine().trim();
 
         // list<list<integer>>
+        //intervals
         List<List<String>> list = new ArrayList<>();
         if (input.startsWith("[[") && input.endsWith("]]")) {
             String stripped = input.substring(2, input.length() - 2);
